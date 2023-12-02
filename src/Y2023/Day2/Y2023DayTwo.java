@@ -6,12 +6,13 @@ import java.util.Collections;
 import FileReading.FileReader;
 
 public class Y2023DayTwo {
+    
     private static ArrayList<String> getContent() {
         return FileReader.getFileContent("src/Y2023/Day2/day2.txt");
     }
 
     public static void main(String[] args) {
-
+        
         // PART 1
         
         int maxRed = 12;
