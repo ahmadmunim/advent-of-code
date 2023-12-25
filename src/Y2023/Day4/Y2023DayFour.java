@@ -7,7 +7,7 @@ import FileReading.FileReader;
 public class Y2023DayFour {
 
     private static ArrayList<String> getContent() {
-        return FileReader.getFileContent("Y2023/Day4/day4.txt");
+        return FileReader.getFileContentAsList("Y2023/Day4/day4.txt");
     }
     public static void main(String[] args) {
 

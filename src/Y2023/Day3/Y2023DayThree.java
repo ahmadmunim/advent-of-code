@@ -10,7 +10,7 @@ import FileReading.FileReader;
 public class Y2023DayThree {
     
     private static ArrayList<String> getContent() {
-        return FileReader.getFileContent("Y2023/Day3/day3.txt");
+        return FileReader.getFileContentAsList("Y2023/Day3/day3.txt");
     }
 
     public static boolean checkAdjacentSymbols(int firstIndex, int lastIndex, String line) {

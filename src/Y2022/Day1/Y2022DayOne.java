@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Y2022DayOne {
 
     private static ArrayList<String> getContent() {
-        return FileReader.getFileContent("src/Y2022/Day1/day1.txt");
+        return FileReader.getFileContentAsList("src/Y2022/Day1/day1.txt");
     }
 
     public static void main(String[] args) {
