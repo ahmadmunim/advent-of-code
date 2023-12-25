@@ -32,8 +32,8 @@ public class FileReader {
             File file = new File(fileName);
             Scanner reader = new Scanner(file);
 
-            while (reader.hasNext()) {
-                data += reader.next();
+            while (reader.hasNextLine()) {
+                data += reader.nextLine();
             }
 
             reader.close();
